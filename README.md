@@ -2,7 +2,6 @@
 
 Pulls **Security Onion** case bundles via the Security Onion Connect REST API with using a **client credentials** OAuth2 flow, then writes tidy JSON files per case (case, comments, events, history, artifacts). It’s a single-file Python script with minimal dependencies and no external CLI framework.
 
-> **Heads-up:** The example script hard-codes your OAuth2 client ID/secret and disables TLS verification for self-signed certificates.
 ---
 
 ## Features
