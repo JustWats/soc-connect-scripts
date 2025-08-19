@@ -62,11 +62,11 @@ Output   : /path/to/cases
 ────────────────────────────────────────────────────────────
 [*] Requesting OAuth2 token…
 [*] Discovering cases…
-[+] Found 14 cases (wide window)
-[•] [ 1/14] 03320432  case ✓  art ✓  com ✓  evt ✓  hist ✓  Case Title
+[+] Found X cases (wide window)
+[•] [ #/X ] 03320432  case ✓  art ✓  com ✓  evt ✓  hist ✓  Case Title
 …
 ────────────────────────────────────────────────────────────
-✓  Bundles OK : 14/14
+✓  Bundles OK : #/X
 i  Saved to  : /path/to/cases
 ```
 
