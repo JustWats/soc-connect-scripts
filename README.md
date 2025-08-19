@@ -133,6 +133,16 @@ This keeps the output usable in pipelines even when the upstream API returns HTM
 ## Security
 
 * Don’t commit real client IDs/secrets. Use environment variables, a `.env` file, or a secrets manager in your fork.
+  * Just scrape the first two config lines, and run this prior to your first run of the script:
+```
+export BASE_URL = "https://<your-so-host>"
+export CLIENT_ID = "your_oauth_client"
+export CLIENT_SECRET = "your_oauth_secret"
+export VERIFY_SSL = False
+export OUT_DIR = pathlib.Path("./cases")
+export EVENT_LIMIT = 5000
+export TIMEOUT = 45
+```
 * Consider read-only scopes for the OAuth2 client permissions.
 
 ---
